@@ -1,8 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-    let arr = [4,8,15,16,23,42];
-    console.log(sequenceClassifier(arr));
-})
-
 const sequenceClassifier = (arr) => {
     let len = arr.length - 1;
     let positive = 0;
@@ -23,3 +18,5 @@ const sequenceClassifier = (arr) => {
     else if (zero === len) return 5
     return 0;
 }
+
+module.exports = sequenceClassifier

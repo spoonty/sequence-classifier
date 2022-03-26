@@ -1,0 +1,26 @@
+{
+  "name": "sequence-classifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spoonty/sequence-classifier.git"
+  },
+  "keywords": [
+    "unit",
+    "testing"
+  ],
+  "author": "spoonty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spoonty/sequence-classifier/issues"
+  },
+  "homepage": "https://github.com/spoonty/sequence-classifier#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
