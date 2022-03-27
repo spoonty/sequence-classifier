@@ -81,7 +81,7 @@ describe('Sequence classifier', () => {
     })
 
     test('Array with bigint raises exception', () => {
-        const array = [10n, 5];
+        const array = [BigInt(Number.MAX_SAFE_INTEGER), 5];
         const result = (array) => sequenceClassifier(array);
         expect(() => result(array)).toThrow(Error);
     })
