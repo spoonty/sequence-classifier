@@ -1,4 +1,8 @@
 const sequenceClassifier = (arr) => {
+    if (!Array.isArray(arr) || arr.length === 0 || arr.some(val => !Number.isInteger(val))) {
+        throw new Error('Incorrect input');
+    }
+
     let len = arr.length - 1;
     let positive = 0;
     let negative = 0;
