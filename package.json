@@ -2,7 +2,7 @@
   "name": "sequence-classifier",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/Scripts/createFile.js",
   "scripts": {
     "test": "jest",
     "dev": "vite",
@@ -19,7 +19,8 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
     "vue": "^3.2.31",
-    "vue-router": "^4.0.14"
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
   },
   "repository": {
     "type": "git",

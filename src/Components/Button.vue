@@ -5,14 +5,12 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style scoped>
 .button {
-  height: 100%;
+  height: 50px;
   width: 50px;
   border-radius: 50%;
   background-color: #8cfca4;

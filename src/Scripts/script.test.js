@@ -1,4 +1,4 @@
-const sequenceClassifier = require('./script');
+import {sequenceClassifier} from "./script";
 
 // 0 - unordered
 // 1 - strictly increasing

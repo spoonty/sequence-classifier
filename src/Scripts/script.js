@@ -1,4 +1,4 @@
-const sequenceClassifier = (arr) => {
+export const sequenceClassifier = (arr) => {
     if (!Array.isArray(arr) || arr.length === 0 || arr.some(val => !Number.isInteger(val))) {
         throw new Error('Incorrect input');
     }
@@ -22,5 +22,3 @@ const sequenceClassifier = (arr) => {
     else if (zero === len) return 5
     return 0;
 }
-
-module.exports = sequenceClassifier
