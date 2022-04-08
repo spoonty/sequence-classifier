@@ -1,4 +1,4 @@
-import {sequenceClassifier} from "./script";
+import {sequenceClassifier} from "../src/Scripts/script";
 
 // 0 - unordered
 // 1 - strictly increasing

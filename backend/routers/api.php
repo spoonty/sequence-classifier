@@ -25,7 +25,6 @@ function getLastResult($connect) {
 
 	if (!is_null($result)) {
 		echo json_encode([
-			'id' => (int)$result['id'],
 			'input' => $result['input'],
 			'output' => $result['output']
 		]);
@@ -44,6 +43,6 @@ function addResult($connect, $formData) {
 		setStatus('200', 'Ok');
 	}
 	else {
-		setStatus('403', 'Input and output can\'t be empty');
+		setStatus('400', 'Input and output can\'t be empty');
 	}
 }

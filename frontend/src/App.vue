@@ -24,7 +24,6 @@ import Input from "@/Components/Input.vue";
 import Button from "@/Components/Button.vue";
 import Answer from "@/Components/Answer.vue";
 import {sequenceClassifier} from "@/Scripts/script.js";
-import {createFile} from "./Scripts/createFile";
 
 export default {
   components: {Answer, Header, Input, Button},
@@ -49,8 +48,6 @@ export default {
         array = array.split(' ');
         array = array.map(x => parseInt(x));
         const result = sequenceClassifier(array);
-
-        //createFile(array, result);
 
         switch (result) {
           case 0:
