@@ -16,6 +16,7 @@ export default {}
   background-color: #8cfca4;
   border: none;
   transition: .2s;
+  cursor: pointer;
 }
 .button svg {
   height: 23px;
