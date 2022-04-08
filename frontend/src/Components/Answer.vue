@@ -1,5 +1,5 @@
 <template>
-  <div class="validation">
+  <div class="answer">
     <slot></slot>
   </div>
 </template>
@@ -11,12 +11,12 @@ export default {
 </script>
 
 <style scoped>
-.validation {
+.answer {
   position: absolute;
   font-family: Tahoma;
   font-weight: bold;
   font-size: 20px;
   cursor: default;
-  color: #750e0e;
+  color: black;
 }
 </style>

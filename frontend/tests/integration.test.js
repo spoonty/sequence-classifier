@@ -1,5 +1,5 @@
 import {sequenceClassifier} from "../src/Scripts/script";
-import {getLastResult, addResult} from "../src/API/api";
+import {getLastResult, addResult} from "./api";
 import {convert} from "../src/Scripts/convert";
 import {classifyByNumber} from "../src/Scripts/classifyByNumber";
 

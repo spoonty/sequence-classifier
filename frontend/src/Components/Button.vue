@@ -1,6 +1,6 @@
 <template>
   <button class="button">
-    <fa icon="check" />
+    <slot></slot>
   </button>
 </template>
 
@@ -17,9 +17,6 @@ export default {}
   border: none;
   transition: .2s;
   cursor: pointer;
-}
-.button svg {
-  height: 23px;
 }
 .button:active {
   background-color: #7edee1;
