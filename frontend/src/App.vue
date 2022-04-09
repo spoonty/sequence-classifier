@@ -3,23 +3,33 @@
     <Header></Header>
     <div class="content">
       <div class="input-wrapper">
-        <Button @click="this.showPreviosResult" iconName="eye" style="margin-right: 10px; background-color: #9df2ff">
+        <Button
+            id="previous-button"
+            @click="this.showPreviosResult"
+            iconName="eye"
+            style="margin-right: 10px;"
+        >
           <fa icon="eye" style="height: 21px" />
         </Button>
-        <Input v-model="inputLine"></Input>
-        <Button @click="this.confirmInput" iconName="check" style="margin-left: 10px">
+        <Input id="array-input" v-model="inputLine"></Input>
+        <Button
+            id="confirm-button"
+            @click="this.confirmInput"
+            iconName="check"
+            style="margin-left: 10px"
+        >
           <fa icon="check" style="height: 21px" />
         </Button>
       </div>
       <div class="result-space">
         <transition name="error">
-          <Answer v-show="this.notValid" style="color: #750e0e;">INCORRECT DATA!</Answer>
+          <Answer id="warning-text" v-if="this.notValid" style="color: #750e0e;">INCORRECT DATA!</Answer>
         </transition>
         <transition name="result">
-          <Answer v-show="this.result">{{this.result}}</Answer>
+          <Answer id="result-text" v-if="this.result">{{this.result}}</Answer>
         </transition>
         <transition name="previous">
-          <Answer v-show="previous">{{this.previous}}</Answer>
+          <Answer id="previous-text" v-if="previous">{{this.previous}}</Answer>
         </transition>
       </div>
     </div>

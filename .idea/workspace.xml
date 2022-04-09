@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9af5afd2-c5aa-46ca-a9c4-735a421c4c05" name="Changes" comment="" />
+    <list default="true" id="9af5afd2-c5aa-46ca-a9c4-735a421c4c05" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tests/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tests/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tests/integration.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tests/integration.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tests/unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tests/unit.test.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +35,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -36,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649391321568</updated>
       <workItem from="1649391353951" duration="39000" />
+      <workItem from="1649437796446" duration="8000" />
     </task>
     <servers />
   </component>

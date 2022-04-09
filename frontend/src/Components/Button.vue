@@ -18,7 +18,10 @@ export default {}
   transition: .2s;
   cursor: pointer;
 }
+.button:hover {
+  background-color: #7ee1d9;
+}
 .button:active {
-  background-color: #7edee1;
+  background-color: #e17e7e;
 }
 </style>
